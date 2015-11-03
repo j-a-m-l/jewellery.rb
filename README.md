@@ -1,6 +1,9 @@
 # jewellery.rb
 
+This project install [Gem in a Box](http://tomlea.co.uk/posts/gem-in-a-box/) inside a Docker container.
+
 ## Usage
+
 ```
 # Build the image:
 docker build --tag jewellery .
@@ -8,7 +11,7 @@ docker build --tag jewellery .
 # Create the container:
 docker run --name jewellery -p 9292:9292 -v <host_path>:/geminabox -d jewellery
 
-# Now, you would be able to see [Gem in a Box](http://tomlea.co.uk/posts/gem-in-a-box/) GUI:
+# Now, you would be able to see the GUI:
 localhost:9292
 
 # Replace the default source (RubyGems.org) with your cool new one:
