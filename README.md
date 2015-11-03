@@ -1,4 +1,4 @@
-# Jewellery
+# jewellery.rb
 
 ## Usage
 Build the image:
