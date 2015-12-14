@@ -2,6 +2,10 @@
 
 This project install [Gem in a Box](http://tomlea.co.uk/posts/gem-in-a-box/) inside a Docker container.
 
+## Image
+
+The image repository URL is [https://hub.docker.com/r/jaml/jewellery.rb/](https://hub.docker.com/r/jaml/jewellery.rb/).
+
 ## Usage
 
 ```
